@@ -18,7 +18,7 @@ namespace TrabalhoPloomes
 {
     class SelecionarClienteEmpresa
     {
-                
+               
         public void SelecionarNomeEmpresaCliente(ComboBox adicionarClientes, int typeID)
         {
 

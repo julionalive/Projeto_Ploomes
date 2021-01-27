@@ -19,3 +19,4 @@ C:\Users\Júlio César\source\repos\TrabalhoPloomes\TrabalhoPloomes\bin\Debug\Sy
 C:\Users\Júlio César\source\repos\TrabalhoPloomes\TrabalhoPloomes\obj\Debug\TrabalhoPloomes.csproj.CopyComplete
 C:\Users\Júlio César\source\repos\TrabalhoPloomes\TrabalhoPloomes\obj\Debug\TrabalhoPloomes.NegociosTarefa.resources
 C:\Users\Júlio César\source\repos\TrabalhoPloomes\TrabalhoPloomes\obj\Debug\TrabalhoPloomes.CriarNegocio.resources
+C:\Users\Júlio César\source\repos\TrabalhoPloomes\TrabalhoPloomes\obj\Debug\TrabalhoPloomes.Atualizar.resources

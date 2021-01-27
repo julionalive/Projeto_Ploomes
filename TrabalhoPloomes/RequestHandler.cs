@@ -7,18 +7,26 @@ using Newtonsoft.Json.Linq;
 using RestSharp;
 using System.Collections.Generic;
 using System.Security.Claims;
+using System.Windows.Forms;
 
 namespace TrabalhoPloomes
 {
     class RequestHandler
     {
+         
+                
+
+
+
 
         private static string PLOOMES_API_PATH = "https://api2.ploomes.com/";
-        private static HttpClient ploomesClient;
+        private static HttpClient ploomesClient;        
         private static string uk = "5ADA3864712EC6CE18E7B56A9F89B64CD9DBAB9A5BA0666ECDDAD8337BE3C18C02A631AC2DDEB70DBA131DD0BB8F33BB595F3A485678F6169967F773C4A57348";
+
 
         public static void instantiatePloomesConnection()
         {
+            
             ploomesClient = new HttpClient();
             ploomesClient.DefaultRequestHeaders.Add("User-key", uk);
             ploomesClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));

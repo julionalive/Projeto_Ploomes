@@ -33,9 +33,7 @@ namespace TrabalhoPloomes
             NomeCliente.SelecionarNomeEmpresaCliente(cbx_SelecionarCliente, typeIdCliente);
 
 
-            int typeIdEmpresa = 1;
-            SelecionarClienteEmpresa NomeEmpresa = new SelecionarClienteEmpresa();
-            NomeEmpresa.SelecionarNomeEmpresaCliente(cbx_SelecionarEmpresa, typeIdEmpresa);
+            
         }
 
         private void cbx_SelecionarCliente_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,9 +72,7 @@ namespace TrabalhoPloomes
             NomeCliente.SelecionarNomeEmpresaCliente(cbx_SelecionarCliente, typeIdCliente);
 
 
-            int typeIdEmpresa = 1;
-            SelecionarClienteEmpresa NomeEmpresa = new SelecionarClienteEmpresa();
-            NomeEmpresa.SelecionarNomeEmpresaCliente(cbx_SelecionarEmpresa, typeIdEmpresa);
+            
 
 
         }
@@ -95,5 +91,7 @@ namespace TrabalhoPloomes
             CriarEmpresa cea_ChamadaDaClasse = new CriarEmpresa();
             cea_ChamadaDaClasse.ShowDialog();
         }
+
+        
     }
 }

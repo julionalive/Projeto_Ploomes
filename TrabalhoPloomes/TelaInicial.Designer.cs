@@ -34,8 +34,6 @@
             this.btt_BotaoCriarEmpresa = new System.Windows.Forms.Button();
             this.cbx_SelecionarCliente = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cbx_SelecionarEmpresa = new System.Windows.Forms.ComboBox();
             this.btt_AtualizarClienteEmpresa = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -100,27 +98,9 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Selecionar Cliente:";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(25, 218);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Selecionar Empresa:";
-            // 
-            // cbx_SelecionarEmpresa
-            // 
-            this.cbx_SelecionarEmpresa.FormattingEnabled = true;
-            this.cbx_SelecionarEmpresa.Location = new System.Drawing.Point(148, 215);
-            this.cbx_SelecionarEmpresa.Name = "cbx_SelecionarEmpresa";
-            this.cbx_SelecionarEmpresa.Size = new System.Drawing.Size(333, 21);
-            this.cbx_SelecionarEmpresa.TabIndex = 6;
-            // 
             // btt_AtualizarClienteEmpresa
             // 
-            this.btt_AtualizarClienteEmpresa.Location = new System.Drawing.Point(28, 252);
+            this.btt_AtualizarClienteEmpresa.Location = new System.Drawing.Point(28, 210);
             this.btt_AtualizarClienteEmpresa.Name = "btt_AtualizarClienteEmpresa";
             this.btt_AtualizarClienteEmpresa.Size = new System.Drawing.Size(101, 30);
             this.btt_AtualizarClienteEmpresa.TabIndex = 10;
@@ -145,8 +125,6 @@
             this.ClientSize = new System.Drawing.Size(578, 458);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btt_AtualizarClienteEmpresa);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbx_SelecionarEmpresa);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbx_SelecionarCliente);
             this.Controls.Add(this.btt_BotaoCriarCliente);
@@ -172,8 +150,6 @@
         private System.Windows.Forms.Button btt_BotaoCriarEmpresa;
         private System.Windows.Forms.ComboBox cbx_SelecionarCliente;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbx_SelecionarEmpresa;
         private System.Windows.Forms.Button btt_AtualizarClienteEmpresa;
         private System.Windows.Forms.Label label3;
     }
